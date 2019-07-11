@@ -40,6 +40,8 @@
                         <li><a href="/about"> About </a></li>
                         <li><a href="/services"> Services </a></li>
                         <li><a href="/posts"> Blog </a></li>
+                        <li><a href="/skills"> Skills </a></li>
+                        <li><a href="/portfolios"> Portfolios </a></li>
                     </ul>
                     <ul class="nav navbar-nav">
                         &nbsp;

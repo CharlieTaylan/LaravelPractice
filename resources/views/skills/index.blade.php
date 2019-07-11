@@ -3,15 +3,14 @@
 @section('content')
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
-        <h1> Portfolio </h1>
-           @if (count($portfolios) > 0)
-                @foreach ($portfolios as $portfolio)
+        <h1> skills </h1>
+           @if (count($skills) > 0)
+                @foreach ($skills as $skill)
                     <div>
                         <div class="well">
-                            <h1> {{$portfolio->thumbnails}} </h1>
+                            <h1> {{$skill->skill_icon}} </h1>
                         </div>
-                        <h3><b>  {{$portfolio->title}} </b></h3>
-                        <h4> {{$portfolio->description}} </h4>
+                        <h3><b>  {{$skill->confidencelvl}} </b></h3>
                     </div>
                 @endforeach
             @else

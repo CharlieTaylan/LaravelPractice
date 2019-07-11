@@ -38,4 +38,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('portfolios', 'PortfoliosController');
-Route::resource('skills', 'SkillsConntroller');
+Route::resource('skills', 'SkillsController');

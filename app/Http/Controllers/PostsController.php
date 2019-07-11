@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
-use DB;
+// use DB;
 
 class PostsController extends Controller
 {
